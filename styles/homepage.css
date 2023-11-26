@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(rgba(41, 47, 54, 0.4), rgba(41, 47, 54, 0.4)), url("../photos/frontend/homepage_bg.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+nav h2 { color: var(--palette-black); }
+.navbar-brand { gap: 1em; }
+
+a[href="../signup.html"] { color: white; }
+
+#title { color: white; }
+
+button[type="submit"] { 
+    background-color: var(--palette-blue) !important; 
+    color: white;
+}
